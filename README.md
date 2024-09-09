@@ -8,6 +8,8 @@ Constraints are that:
 
 ## Solution
 
+![schema](https://raw.githubusercontent.com/anaiel/poc-mdx/main/poc_mdx.png)
+
 NB: The `mdx` is intended to live on an outside repository, which would have a CI that uploads a file to a server. In this POC, this is materialized through creating a file in the /public folder of the react app
 
 ## Start
