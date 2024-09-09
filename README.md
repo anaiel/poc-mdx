@@ -12,11 +12,31 @@ NB: The `mdx` is intended to live on an outside repository, which would have a C
 
 ## Start
 
+Build mdx components:
+
 ```
+cd mdx
 npm i
 npm run mdx:compile
+```
+
+Move the output file in the public folder:
+
+```
+cd ..
+mv mdx/ouput/* react-app/public/mdx
+```
+
+Run the react app (build with Vite):
+
+```
+npm i
 npm run dev
 ```
+
+## Troubleshoot
+
+Make sure the url for the script in the App.tsx file matches the port that Vite serves the app on
 
 ## Resources
 
