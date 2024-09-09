@@ -10,6 +10,14 @@ Constraints are that:
 
 NB: The `mdx` is intended to live on an outside repository, which would have a CI that uploads a file to a server. In this POC, this is materialized through creating a file in the /public folder of the react app
 
+## Start
+
+```
+npm i
+npm run mdx:compile
+npm run dev
+```
+
 ## Resources
 
 https://github.com/kentcdodds/mdx-bundler?tab=readme-ov-file#component-substitution
