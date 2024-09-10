@@ -14,7 +14,9 @@ function App() {
     let stop = false;
 
     (async () => {
-      const source = await fetch("http://localhost:5173/mdx/example.js");
+      const source = await fetch(
+        "http://localhost:5173/mdx/espace-pedago-atticus.js"
+      );
       const code = await source.text();
       if (!stop) {
         setCode(code);
